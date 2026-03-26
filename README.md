@@ -5,3 +5,15 @@ A console-based UNOcard game implemented in C++. Allow 1 player and 3 bots. Orig
 
 This project was developed as a group assignment for course CSC3002 at CUHK-ShenZhen.I was responsible for implementing the card functionality system and integrating it with the game engine in this UNO game project. And I also took responsibility for debugging and testing.
 
+How to Play
+Compile the game:
+g++ -std=c++17 -o uno.exe main.cpp gameengine.cpp card.cpp player.cpp unoui.cpp -I.
+
+
+Run the game:
+.\uno.exe
+
+Follow the on‑screen prompts
+
+You’ll be shown your current hand, use A/D to choose the card you want to play, W to draw from deck, s to use your character skill
+
